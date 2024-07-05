@@ -18,8 +18,8 @@ setup(
   author = 'aeiwz',                 
   author_email = 'theerayut_aeiw_123@hotmail.com',   
   url = 'https://github.com/aeiwz/microbie.git',  
-  download_url = '',  
-  keywords = ['Omics', 'Multivariate analysis', 'Visualization', 'Data Analysis', 'Metabolomics', 'Chemometrics'],
+  download_url = 'https://github.com/aeiwz/microbie/archive/refs/tags/v0.0.1.tar.gz',  
+  keywords = ['Microbiome', 'Sequencing', 'Analysis', 'Visualisation'],
   install_requires=[            
           'scikit-learn',
           'pandas',
@@ -29,8 +29,8 @@ setup(
           'scipy',
           'statsmodels',
           'plotly',
-          'pyChemometrics',
-          'lingress'],
+          'lingress',
+          'metbit'],
   classifiers=[
     'Development Status :: 3 - Alpha',     
     'Intended Audience :: Education',     
