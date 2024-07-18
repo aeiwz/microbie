@@ -7,7 +7,7 @@ def extract_sam(input_sam):
     with open(input_sam, "r") as f:
         with open(output_txt, "w") as of:
             for line in f:
-                if line.startswith("@SQ"):
+                if line.startswith("@"):
                     continue
                 else:
                     line = line.strip().split("\t")
